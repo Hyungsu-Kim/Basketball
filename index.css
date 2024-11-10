@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background: #1B244A;
+    background-size: cover;
+    width:575px;
+    height: 440px;
+    margin:0 auto;
+    text-align: center;
+}
+
+.score-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.title1 {
+    color: white;
+    width: 149px;
+    height:36px;
+    margin-top: 68px;
+    margin-left: 85px;
+    margin-bottom: 21px;
+    font-size: 40px;
+    font-weight: bold;
+    
+
+}
+
+.title2 {
+    color: white;
+    width: 149px;
+    height:36px;
+    margin-top: 68px;
+    margin-right: 85px;
+    margin-bottom: 21px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.box1 {
+    width:155px;
+    height:120px;
+    background: #080001;
+    margin-left: 82px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.box2 {
+    width:155px;
+    height:120px;
+    background: #080001;
+    margin-right: 82px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: none;
+}
+
+#num1 {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    color: #F94F6D;
+    text-align: center;
+    margin: auto;
+    font-size: 90px;      
+}
+
+#num2 {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    color: #F94F6D;
+    text-align: center;
+    margin: auto;
+    font-size: 90px;   
+}
+
+.btn {
+    width: 155px;
+    margin-left: 82px;
+    margin-top: 26px;
+    
+}
+
+.btn-common {
+    width: 45px;
+    height: 45px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    background: #080001;
+    color: white;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 18px;
+    color: #9AABD8;
+}
+
+#btn-hom1 {
+    margin-right: 3px;
+}
+
+#btn-hom2 {
+    margin-right: 3px;
+}
+
+
+
+.btn2 {
+    width: 155px;
+    margin-right: 83px;
+    margin-top: 26px;
+    
+}
+
+
+#btn-gue1 {
+    margin-right: 3px;
+}
+
+#btn-gue2 {
+    margin-right: 3px;
+
+}
+
+.last-container {
+    margin: 32px 0 0 0;
+    
+}
+
+#new-game {
+    background: #080001;
+    color: white;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 23px;
+    color: #9AABD8;
+    border: 2px solid #9AABD8;
+    border-radius: 6px;
+    padding: 6px 12px;
+}
+
+.highlight {
+    color: #fafafa;
+    font-weight: bold;
+    padding: 5px 10px;
+    font-size: 24px;
+    border-radius: 6px;
+}
